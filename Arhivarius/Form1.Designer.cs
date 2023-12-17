@@ -110,6 +110,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(392, 150);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // textBox6
             // 
@@ -224,6 +225,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // axAcroPDF1
             // 
@@ -233,6 +235,7 @@
             this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
             this.axAcroPDF1.Size = new System.Drawing.Size(383, 385);
             this.axAcroPDF1.TabIndex = 4;
+            this.axAcroPDF1.Enter += new System.EventHandler(this.axAcroPDF1_Enter);
             // 
             // tabPage2
             // 

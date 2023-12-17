@@ -107,5 +107,8 @@
     <Folder Include="Res\Scan\" />
     <Folder Include="Res\Students\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Res\StudentsDB.xlsx" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
